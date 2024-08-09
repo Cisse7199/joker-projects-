@@ -1,0 +1,19 @@
+form .fieldset{
+    border: 6px solid rgb(48, 17, 221);
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(197, 157, 212);
+    width: 400px;
+}
+legend{
+    font-weight: bold;
+    font: white;
+    color: #1e11d8;
+}
+.inpu{
+    display: flex;
+    margin: 0.5em;
+    padding: 5px;
+    flex-direction: column;
+}

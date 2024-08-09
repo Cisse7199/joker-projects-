@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="ILBOUDO R Narcisse">
+            <meta name="description" content="formulaire de connexion">
+            <meta name="keywords" content="ine, formulaire">
+            <link rel="stylesheet" href="joker.css">
+            <title>Page de connexion :</title>
+        </head>
+        <body>
+            <form method="post" action="jokerp.php">
+                <fieldset class="fieldset">
+                    <legend> Formulaire de connexion </legend>
+                    <p>
+                        <label style="font-size: 20px; font-weight:bold">Entrez votre nom :</label>
+                        <input type="text"  name="name" required style="font-size: 20px; background: #318a7e;" class="inpu">
+                        <p>
+                            <label style="font-size: 20px; font-weight:bold">Votre prenom :</label>
+                            <input type="text" name="prenom" required style="font-size: 20px; background:#318a7e" class="inpu">
+                        </p>
+                        <p>
+                            <label for="" style="font-size: 20px; font-weight:bold">Votre ine :</label>
+                            <input type="text" name="ine" required style="font-size: 20px; background:#318a7e" class="inpu">
+
+                        </p>
+                        <p>
+                            <label></label>
+                            <input type="submit" name="Envoie" value="Valider" style="background-color: green;font-size:30px;font-size:20px;">
+                            <input type="reset" name="Annuler" value="Annuler" style="background-color: rgb(224, 34, 34);font-size:30px;font-size:20px;">
+                        </p>
+                        <br><b style="color: red;">
+                        <?php
+                        echo $message;
+                        ?>
+                        </b>
+                    </p>
+                </fieldset>
+            </form>
+        </body>
+    </html>

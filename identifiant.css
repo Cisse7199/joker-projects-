@@ -1,0 +1,39 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    min-width: 300px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border:2px solid wheat;
+    background-color: rgb(201, 175, 59);
+}
+.entete{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.entete p{
+    color: rgb(235, 14, 14);
+}
+.vert{
+    color: rgb(238, 12, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+.lien_t{
+    text-decoration: none;
+    text-justify: center;
+    color:blue;
+
+}
+.lien_t:hover{
+    color:green;
+    background-color: white;
+}

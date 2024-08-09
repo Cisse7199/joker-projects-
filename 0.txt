@@ -1,0 +1,8 @@
+name	description	image	attributes	
+			trait_type	value
+0	Etudiant nft	ipfs://QmQJNyYSSJC3gpEyZ5QmCbeiDWHFL1kp6At9co5PzB7jpK/00.png	Background	white
+			Body	maroon
+			Eyes	standard
+			Clothes	blue_dot
+			Held Item	nut
+			Hands	standard
